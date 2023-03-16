@@ -8,6 +8,7 @@ function SolutionLetters ({word, userLetters}){
       return (
         <li key={index} className='letter'>
           {exists ? letter : ''}
+
         </li>
       );
     });

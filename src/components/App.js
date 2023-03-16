@@ -4,6 +4,9 @@ import Dummy from './Dummy';
 import Form from './Form'
 import SolutionLetters from './SolutionLetters';
 import ErrorLetters from './ErrorLetters'
+import Footer from './Footer';
+
+import {Route, Routes} from 'react-router-dom';
 
 // api
 import getWordFromApi from '../services/api';
@@ -78,6 +81,7 @@ function App() {
           numberOfErrors={getNumberOfErrors()}/>
           
       </main>
+      <Footer/>
     </div>
   );
 }
